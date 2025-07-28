@@ -1,0 +1,19 @@
+I suppose I should ask before I get too far: to what degree does OpenOffice currently have browser-style tabs? Natively, or via plugins, or whatever.
+ChatGPT said:
+Apache OpenOffice does not currently have native browser-style tabs (like in modern browsers or tabbed terminal applications). Here’s a breakdown of its status and options:
+✅ Native Tab Support
+Not available.
+OpenOffice opens each document in a separate window rather than as tabs within one window.
+Users often request tabbed UI support, but the feature has not been added to the core product.
+🔌 Extensions or Plugins
+There is no official extension or plugin that provides browser-style tabs directly within OpenOffice.
+Some third-party workarounds or macro-based tricks exist but they are fragile, not user-friendly, and not actively maintained.
+🔁 Alternative Approaches
+LibreOffice, a fork of OpenOffice, does support a tabbed interface via its "Notebookbar" feature (since version 6), especially in "Tabbed" mode — though it's not enabled by default.
+For users who need a modern tabbed document editing experience, LibreOffice is significantly ahead in this regard.
+🔧 Modernization Opportunity
+If you're pursuing a modernization project (e.g., targeting OpenOffice in the context of the Enterprise Week project), adding a native tabbed interface would be:
+A highly visible and valuable usability enhancement.
+A meaningful engineering challenge, requiring UI framework updates.
+A great candidate for one of the six new features to implement.
+Let me know if you want to explore implementing tabs in a modernized fork of OpenOffice (or whether LibreOffice might be a better starting point for this feature).
